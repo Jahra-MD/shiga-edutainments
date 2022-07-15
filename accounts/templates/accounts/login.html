@@ -164,6 +164,15 @@ form h3{
 
 }
 
+.fa-xmark
+   {
+    content: "\f00d";
+    position: absolute;
+    left: 100%;
+    top: -40%;
+    font-size: 40px;
+   }
+
 </style> 
                 <form action="{% url 'user_login' %}" method="post"  style="padding-top: 10%">
                   {% csrf_token %}
@@ -178,6 +187,7 @@ form h3{
                   </div>
                   <div class="row justify-content-center">
                       <input type="submit" value="Login" class="btn btn-success btn-lg mt-3" style="margin-left:4.%; width:200px; margin-bottom: 20px;">
+                    <a href="{%url 'index' %}" target="_self"><i class="fa-solid fa-xmark"  style="color:#c2b280"></i>
                   </div>
                   </div>
                   </div>

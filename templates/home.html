@@ -191,32 +191,32 @@
       }
       
       .navMenu a:nth-child(1):hover ~ .dot {
-        -webkit-transform: translateX(40px);
-        transform: translateX(40px);
+        -webkit-transform: translateX(45px);
+        transform: translateX(45px);
         -webkit-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
         opacity: 1;
       }
       
       .navMenu a:nth-child(2):hover ~ .dot {
-        -webkit-transform: translateX(160px);
-        transform: translateX(160px);
+        -webkit-transform: translateX(162px);
+        transform: translateX(162px);
         -webkit-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
         opacity: 1;
       }
       
       .navMenu a:nth-child(3):hover ~ .dot {
-        -webkit-transform: translateX(290px);
-        transform: translateX(290px);
+        -webkit-transform: translateX(280px);
+        transform: translateX(280px);
         -webkit-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
         opacity: 1;
       }
       
       .navMenu a:nth-child(4):hover ~ .dot {
-        -webkit-transform: translateX(400px);
-        transform: translateX(378px);
+        -webkit-transform: translateX(410px);
+        transform: translateX(410px);
         -webkit-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out;
         opacity: 1;
@@ -238,7 +238,7 @@
         height: 40px;
         margin-left: 7px;
         margin-right: 7px;
-        font-size: 19px;
+        font-size: 16px;
       }
       
       .social-media-icons a {
@@ -251,7 +251,7 @@
         display: flex;
         z-index: -1;
         position: relative;
-       bottom: -755px;
+       bottom: -520px;
        right: 3px; 
         right:-5px;
         -webkit-box-align: center;
@@ -344,6 +344,7 @@
       <a href="{% url 'user_logout' %}">Logout</a>
       {% else %}
       <a href="{%url 'index' %}">Home</a>
+      <a href="https://shiga.siterubix.com/about-shiga/">About</a>
       <a href="{% url 'user_login' %}">Login</a>
       <a href="{% url 'register' %}">Register</a>
       <!-- <a href="#">Log in</a> -->
